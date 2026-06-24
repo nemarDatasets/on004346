@@ -1,35 +1,151 @@
 {
   "version": "2.0",
-  "dataset_id": "on004346",
-  "source": "openneuro",
-  "source_id": "ds004346",
+  "pipeline_stage": "enriched",
   "title": "FLUX: A pipeline for MEG analysis",
-  "authors": {
-    "Oscar Ferrante": {},
-    "Ling Liu": {},
-    "Tamas Minarik": {},
-    "Urszula Gorska": {},
-    "Tara Ghafari": {},
-    "Huan Luo": {},
-    "Ole Jensen": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Oscar Ferrante": {
+      "orcid": "0000-0001-6869-7041"
+    },
+    "Ling Liu": {},
+    "Tamas Minarik": {},
+    "Urszula Gorska": {
+      "orcid": "0000-0002-3808-337X"
+    },
+    "Tara Ghafari": {
+      "orcid": "0000-0002-5178-8702"
+    },
+    "Huan Luo": {
+      "orcid": "0000-0002-8349-9796"
+    },
+    "Ole Jensen": {
+      "orcid": "0000-0001-8193-8348"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004346.v1.0.8",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004346",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004346",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2022.119047",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "anat",
     "meg"
   ],
-  "datatypes": [
-    "anat",
-    "meg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".H",
+    ".K",
+    ".annot",
+    ".area",
+    ".avg_curv",
+    ".bak",
+    ".cmd",
+    ".crv",
+    ".csv",
+    ".ctab",
+    ".curv",
+    ".dat",
+    ".defect_borders",
+    ".defect_chull",
+    ".defect_labels",
+    ".done",
+    ".env",
+    ".fif",
+    ".gz",
+    ".inflated",
+    ".jacobian_white",
+    ".json",
+    ".label",
+    ".local-copy",
+    ".log",
+    ".lta",
+    ".m3z",
+    ".md",
+    ".mgh",
+    ".mgz",
+    ".mid",
+    ".nofix",
+    ".old",
+    ".orig",
+    ".pial",
+    ".preaparc",
+    ".reg",
+    ".seghead",
+    ".smoothwm",
+    ".sphere",
+    ".stats",
+    ".sulc",
+    ".surf",
+    ".thickness",
+    ".touch",
+    ".tsv",
+    ".txt",
+    ".volume",
+    ".white",
+    ".xfm"
+  ],
+  "description": "FLUX is a comprehensive pipeline for magnetoencephalography (MEG) data analysis that implements standardized workflows for processing and analyzing MEG signals. This dataset contains raw MEG recordings and associated structural MRI data from multiple subjects, organized according to the Brain Imaging Data Structure (BIDS) standard. The dataset supports the development, validation, and reproducible application of the FLUX pipeline for MEG signal processing and analysis.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "data processing pipeline"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "signal processing"
+    },
+    {
+      "term": "pipeline"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Research Council (ERC)"
+    }
+  ],
+  "source_hash": "30a7ab840aafb11955297ef66d7cac70ca9ac3edccf43777aaeebdb6c55bd5ae"
 }
