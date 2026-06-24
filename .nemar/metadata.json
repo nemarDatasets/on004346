@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "FLUX: A pipeline for MEG analysis",
+  "description": "FLUX is a comprehensive pipeline for magnetoencephalography (MEG) data analysis, providing standardized workflows for processing and analyzing MEG recordings. This BIDS-compliant dataset contains raw MEG data from multiple subjects with implemented preprocessing and analysis workflows including source localization, frequency domain analysis, and statistical testing. The dataset demonstrates the application of the FLUX pipeline for neuroimaging analysis, including MEG signal processing, artifact rejection, and brain activity quantification.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,12 +24,44 @@
       "orcid": "0000-0001-8193-8348"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004346.v1.0.8",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "FLUX"
+    },
+    {
+      "term": "pipeline"
+    },
+    {
+      "term": "preprocessing"
+    },
+    {
+      "term": "data processing"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "frequency domain analysis"
+    },
+    {
+      "term": "artifact rejection"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004346",
       "identifier_type": "URL",
@@ -53,16 +86,30 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004346.v1.0.8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Research Council (ERC)"
+    },
+    {
+      "funder_name": "European Research Council (ERC)",
+      "award_number": "Not specified"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "16.1 GB (336 files)"
   ],
   "formats": [
     ".H",
@@ -114,38 +161,8 @@
     ".txt",
     ".volume",
     ".white",
-    ".xfm"
+    ".xfm",
+    ".yml"
   ],
-  "description": "FLUX is a comprehensive pipeline for magnetoencephalography (MEG) data analysis that implements standardized workflows for processing and analyzing MEG signals. This dataset contains raw MEG recordings and associated structural MRI data from multiple subjects, organized according to the Brain Imaging Data Structure (BIDS) standard. The dataset supports the development, validation, and reproducible application of the FLUX pipeline for MEG signal processing and analysis.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "data processing pipeline"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "signal processing"
-    },
-    {
-      "term": "pipeline"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "European Research Council (ERC)"
-    }
-  ],
-  "source_hash": "30a7ab840aafb11955297ef66d7cac70ca9ac3edccf43777aaeebdb6c55bd5ae"
+  "source_hash": "80a3a39c2d410d2bc534638c00125bcda3ea7cf8b95981c340e9224b8c919544"
 }
