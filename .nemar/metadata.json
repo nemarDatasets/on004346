@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "FLUX: A pipeline for MEG analysis",
-  "description": "FLUX is a comprehensive pipeline for magnetoencephalography (MEG) data analysis, providing standardized workflows for processing and analyzing MEG recordings. This BIDS-compliant dataset contains raw MEG data from multiple subjects with implemented preprocessing and analysis workflows including source localization, frequency domain analysis, and statistical testing. The dataset demonstrates the application of the FLUX pipeline for neuroimaging analysis, including MEG signal processing, artifact rejection, and brain activity quantification.",
+  "description": "FLUX is a comprehensive pipeline for magnetoencephalography (MEG) data analysis, providing standardized workflows for processing and analyzing MEG recordings. This dataset demonstrates the application of the FLUX pipeline to MEG neuroimaging data organized according to the Brain Imaging Data Structure (BIDS) standard, facilitating reproducible and transparent MEG analysis across research groups. The dataset is derived from OpenNeuro ds004346 and contains MEG recordings with anatomical data.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,31 +34,19 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     },
     {
-      "term": "FLUX"
-    },
-    {
-      "term": "pipeline"
-    },
-    {
-      "term": "preprocessing"
-    },
-    {
-      "term": "data processing"
+      "term": "data processing pipeline"
     },
     {
       "term": "BIDS"
     },
     {
-      "term": "brain imaging"
+      "term": "neuroimaging"
     },
     {
-      "term": "source localization"
+      "term": "pipeline"
     },
     {
-      "term": "frequency domain analysis"
-    },
-    {
-      "term": "artifact rejection"
+      "term": "OpenNeuro"
     }
   ],
   "related_identifiers": [
@@ -99,7 +87,7 @@
     },
     {
       "funder_name": "European Research Council (ERC)",
-      "award_number": "Not specified"
+      "award_number": "Not specified in dataset documentation"
     }
   ],
   "resource_type_general": "Dataset",
