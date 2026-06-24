@@ -1,16 +1,22 @@
 {
-    "Name": "FLUX: A pipeline for MEG analysis",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "Oscar Ferrante",
-        "Ling Liu",
-        "Tamas Minarik",
-        "Urszula Gorska",
-        "Tara Ghafari",
-        "Huan Luo",
-        "Ole Jensen"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds004346.v1.0.8",
-    "License": "CC0"
+  "Name": "FLUX: A pipeline for MEG analysis",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Oscar Ferrante",
+    "Ling Liu",
+    "Tamas Minarik",
+    "Urszula Gorska",
+    "Tara Ghafari",
+    "Huan Luo",
+    "Ole Jensen"
+  ],
+  "DatasetDOI": "10.82901/nemar.on004346",
+  "License": "CC0",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004346.v1.0.8"
+    }
+  ],
+  "Version": "1.0.0"
 }
