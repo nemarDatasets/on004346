@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "FLUX: A pipeline for MEG analysis",
-  "description": "FLUX is a comprehensive pipeline for magnetoencephalography (MEG) data analysis, providing standardized workflows for processing and analyzing MEG recordings. This dataset demonstrates the application of the FLUX pipeline to MEG neuroimaging data organized according to the Brain Imaging Data Structure (BIDS) standard, facilitating reproducible and transparent MEG analysis across research groups. The dataset is derived from OpenNeuro ds004346 and contains MEG recordings with anatomical data.",
+  "description": "This dataset contains MEG data collected as part of the FLUX pipeline project, a standardized analysis and preprocessing pipeline for magnetoencephalography (MEG) research. The dataset was reorganized into BIDS format from an original OpenNeuro dataset to support reproducible MEG analysis workflows across multiple research sites.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,34 +29,27 @@
       "term": "MEG"
     },
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
-    },
-    {
-      "term": "data processing pipeline"
+      "term": "magnetoencephalography"
     },
     {
       "term": "BIDS"
     },
     {
-      "term": "neuroimaging"
+      "term": "neuroimaging pipeline"
     },
     {
-      "term": "pipeline"
+      "term": "data analysis"
     },
     {
-      "term": "OpenNeuro"
+      "term": "multi-site replication"
+    },
+    {
+      "term": "anatomical MRI"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004346",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004346",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -79,6 +72,11 @@
       "identifier": "10.18112/openneuro.ds004346.v1.0.8",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004346",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
